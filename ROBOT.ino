@@ -1,28 +1,3 @@
-#define TRIG_PIN 7  // Ορισμός του πείρου που στέλνει τον υπέρηχο
-#define ECHO_PIN 6  // Ορισμός του πείρου που λαμβάνει την αντανάκλαση του υπερήχου
-#define MOTOR_L1 2  // Ορισμός του πείρου που ελέγχει το μοτέρ αριστερά (μπροστά)
-#define MOTOR_L2 3  // Ορισμός του πείρου που ελέγχει το μοτέρ αριστερά (πίσω)
-#define MOTOR_R1 4  // Ορισμός του πείρου που ελέγχει το μοτέρ δεξιά (μπροστά)
-#define MOTOR_R2 5  // Ορισμός του πείρου που ελέγχει το μοτέρ δεξιά (πίσω)
-
-void setup() {
-  Serial.begin(9600);  // Εκκίνηση της σειριακής επικοινωνίας στα 9600 baud για εκτύπωση δεδομένων
-
-  pinMode(TRIG_PIN, OUTPUT);  // Ορισμός του TRIG_PIN ως έξοδος (για αποστολή παλμού)
-  pinMode(ECHO_PIN, INPUT);   // Ορισμός του ECHO_PIN ως είσοδος (για
-
-
-
-
-
-Είπες:
-καντο στα αγγλικα
-Το ChatGPT είπε:
-Here is your code with comments in English explaining each command:
-
-cpp
-Αντιγραφή
-Επεξεργασία
 #define TRIG_PIN 7  // Define the pin that sends the ultrasonic signal
 #define ECHO_PIN 6  // Define the pin that receives the reflected ultrasonic signal
 #define MOTOR_L1 2  // Define the pin controlling the left motor (forward)
